@@ -27,7 +27,6 @@
 .hard_candy { font-family: sans-serif }
 .sedate { font-style: inherit }
 .relate { text-decoration-style: wavy }
-.cell { display: block }
 .tone + br { display: none }
 </style>
 
@@ -74,8 +73,10 @@
 }
 
 .yolo :focus {
-  outline-color: #415;
-  outline-style: groove;
+  outline-color: currentColor;
+  outline-style: solid;
+  outline-offset: 1px;
+  outline-width: 2px;
 }
 
 .bpm {
@@ -83,9 +84,9 @@
   padding: 1rem;
   margin-bottom: 3rem;
   width: 100%;
+  border-radius: 3rem 1rem;
 }
 
-.cell { padding: 1rem }
 .inhale { margin-top: 2rem }
 .exhale { margin-bottom: 3rem }
 .chill { font-weight: normal }
@@ -124,10 +125,10 @@
 
 <body class="soft_skills">
 
-<header class="diy exhale">
-  <h1 class="diy">Ryan Van Etten</h1>
+<header class="diy bpm inhale exhale blood tide">
+  <h1 class="diy"><a href="https://ryanve.com">Ryan Van Etten</a></h1>
   <ul class="diy">
-    <li>UX Engineer in NJ near NYC
+    <li>NYC area UX Engineer
     <li>Engineering degree from CU Boulder
     <li>646-853-4941 <a href="https://www.linkedin.com/in/ryanve">LinkedIn</a> <a href="https://twitter.com/ryanve">Twitter</a> <a href="https://github.com/ryanve">Github</a>
   </ul>
@@ -179,7 +180,7 @@
   </ul>
 </figure>
 
-<figure class="diy bpm blood tide">
+<figure class="diy bpm blood amber">
   <h2>Community</h2>
   <ul>
     <li><a href="https://github.com/sponsors/ryanve">Github opensourcer</a>
